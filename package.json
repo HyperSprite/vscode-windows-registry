@@ -1,10 +1,7 @@
 {
-  "name": "vscode-windows-registry",
+  "name": "@hypersprite/vscode-windows-registry",
   "version": "1.0.3",
   "description": "A native node module for accessing the windows registry",
-  "os": [
-    "win32"
-  ],
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
@@ -12,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Microsoft/vscode-windows-registry.git"
+    "url": "git+https://github.com/HyperSprite/vscode-windows-registry"
   },
   "author": "Microsoft Corporation",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Microsoft/vscode-windows-registry/issues"
+    "url": "https://github.com/HyperSprite/vscode-windows-registry/issues"
   },
-  "homepage": "https://github.com/Microsoft/vscode-windows-registry#readme",
+  "homepage": "https://github.com/HyperSprite/vscode-windows-registry#readme",
   "devDependencies": {
     "@types/mocha": "^5.2.6",
     "@types/node": "^11.9.4",
