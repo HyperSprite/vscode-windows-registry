@@ -1,5 +1,8 @@
 # Native node module to access the Windows Registry
+
 This module only has what is needed to support VS Code and is intended to be a lightweight module.
+
+> Forked from (Microsoft/vscode-windows-registry)[https://github.com/Microsoft/vscode-windows-registry] so it can be installed on any OS, but still only works on Win32
 
 ## Installing
 
@@ -15,6 +18,7 @@ console.log(vsWinReg.GetStringRegKey('HKEY_LOCAL_MACHINE', 'SOFTWARE\\Microsoft\
 ```
 
 ## Development
+
  * `yarn`
  * `yarn node-gyp configure`
  * `yarn node-gyp build`
@@ -22,10 +26,10 @@ console.log(vsWinReg.GetStringRegKey('HKEY_LOCAL_MACHINE', 'SOFTWARE\\Microsoft\
  * `yarn test`
 
 ## License
+
 [MIT](https://github.com/Microsoft/vscode-windows-registry/blob/master/License.txt)
 
-
-# Contributing
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
@@ -38,4 +42,3 @@ provided by the bot. You will only need to do this once across all repos using o
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
